@@ -7,7 +7,7 @@ const Home = () => {
         <div className='max-w-7xl mx-auto'>
             <div className='flex flex-col md:flex-row justify-center md:justify-between items-center'>
                 <div className='order-1'>
-                    <h1 className='text-5xl'>Food delivery from ঢাকা বিভাগ’s best restaurants</h1>
+                    <h1 className='text-5xl p-2 text-center font-semibold'>Food delivery from best restaurants</h1>
                 </div>
                 <div className='flex justify-center md:justify-end order-2'>
                     <img className='w-3/4' src="https://images.deliveryhero.io/image/foodpanda/city-page/refresh-hero-city-bd.png" alt="" />

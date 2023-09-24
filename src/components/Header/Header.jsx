@@ -13,7 +13,7 @@ const Header = () => {
                 <span> {show === true ? <FaArrowAltCircleUp /> : <FaBars />}</span>
             </div>
 
-            <div className={`flex flex-col md:flex-row items-center gap-3 absolute  right-0  rounded-lg  duration-150 md:static ${show ? 'top-16 bg-white shadow-lg p-3' : '-top-36'}`}>
+            <div className={`flex flex-col md:flex-row items-center gap-3 absolute  right-0  rounded-lg  duration-150 md:static ${show ? 'top-16 bg-white shadow-lg md:shadow-none p-3' : '-top-36'}`}>
                 <li className='list-none text-1xl py-1 px-3 border border-pink-500 rounded-lg font-semibold text-pink-500' ><Link to="login">Log in</Link></li>
                 <li className=' list-none text-1xl py-1 px-3 border border-pink-500 bg-pink-500 rounded-lg font-semibold text-white' ><Link to="signup">Sign up</Link></li>
                 <li className=' list-none text-2xl text-pink-500' ><Link to="cart"><FaShoppingCart /></Link></li>

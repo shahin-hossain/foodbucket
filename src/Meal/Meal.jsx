@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useSearchParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Meal = ({ meal }) => {
     const { strMeal, strMealThumb, idMeal } = meal;
